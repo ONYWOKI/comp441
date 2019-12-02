@@ -1,0 +1,104 @@
+.section{
+	width: 900px;
+	height: 100vh;
+	background: darkgray;
+	margin: 0 auto;
+	border-radius: 3px;
+	padding: 20px;
+	position: relative;
+}
+
+.nav{
+	display:inline-block;
+	float: left;
+	}
+
+ul{
+	display: inline;
+	list-style: none;
+}
+
+li>a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: blue;
+	padding: 5px;
+	border-radius: 3px;
+	transition: all 0.5s ease;
+}
+
+li>a:hover{
+	background: none;
+	color: blue;
+	border: 2px solid blue;
+}
+
+
+h2{
+	color: grey;
+	transition: 0.7s ease;
+}
+
+#back a{
+	margin: 20px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background: none;
+	float: right;
+	transition: all 0.5s ease;
+}
+
+#back a:hover{
+	color: lightgrey;
+}
+form{
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 450px;
+	height: auto;
+	background-color: silver;
+	padding: 20px;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+form label{
+	float: left;
+	font-weight: bold;
+	color: white;
+}
+
+form input{
+	left:50px;
+	text-align: center;
+	font-weight: bold;
+	width: 200px;
+	height: 30px;
+	border: none;
+	background-color: darkgrey;
+}
+form>button{
+	border: none;
+	border-radius: 3px;
+	height: 30px;
+	background-color: white;
+	color: blue;
+	font-weight: bold;
+	transition: all;
+}
+button{
+
+}
+
+form>button :hover{
+	background-color: blue;
+	color: white;
+}
+form h2{
+	color: white;
+	margin-top: -10px;
+	text-align: center;
+}

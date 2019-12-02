@@ -1,0 +1,125 @@
+.section{
+	width: 900px;
+	height: 100vh;
+	background: gray;
+	padding: 30px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0 auto;
+
+
+}
+
+h1{
+	color: silver;
+}
+
+.products{
+	border-radius: 5px;
+	position: relative;
+}
+
+div button{
+	display: inline-block;
+	padding: 5px;
+	background-color: blue;
+	border: none;
+	border-radius: 3px;
+	font-weight: bold;
+	color: white;
+	transition: all 0.5s;
+  	cursor: pointer;
+
+}
+
+div button :hover{
+	color: blue;
+	border:3px solid blue;
+	background-color: none;
+}
+
+
+
+.checkout{
+	display: inline-block;
+	padding: 5px;
+	background-color: blue;
+	border: transparent;
+	border-radius: 3px;
+	font-weight: bold;
+	color: white;
+	transition: 0.4s all;
+}
+
+.quantity{
+	text-align: center;
+	display: inline-block;
+	width: 70px;
+	padding: 5px;
+	border-color: blue;
+	border-radius: 3px;
+
+}
+
+#milk{
+	display: inline-block;
+	height: 300px;
+	width: 250px;
+	background: white;
+	margin-left: 20px;	
+	color: lightpink;
+	font-weight: bold;
+	
+}
+
+#yoghurt{
+	display: inline-block;
+	height: 300px;
+	width: 250px;
+	background: lightpink;
+	margin-left: 20px;
+	color: white;
+	font-weight: bold;
+	margin-top: 50px;
+	
+}
+
+#cheese{
+	display: inline-block;
+	color: darkgrey;
+	font-weight: bold;
+	height: 300px;
+	width: 250px;
+	background: lightyellow;
+	margin-left: 20px;
+}
+
+label{
+	color: white;
+}
+
+/*#inventory a{
+	float: right;
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	color: silver;
+	transition: all 0.4s;
+}
+
+#inventory a :hover{
+	color: white;
+}
+*/
+
+a{
+	text-decoration: none;
+	color: darkblue;
+	float: right;
+	transition: all;
+	transition-delay: 0.3s;
+}
+
+a :hover{
+	text-decoration: underline;
+}
